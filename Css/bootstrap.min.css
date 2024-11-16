@@ -399,7 +399,7 @@ h6 {
 
 .h1,
 h1 {
-  font-size: 2.5rem;
+  /* font-size: 2.5rem; */
 }
 
 .h2,
@@ -4811,8 +4811,8 @@ input[type="submit"].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  overflow: hidden;
 }
 
 .card > hr {
@@ -6830,8 +6830,8 @@ button.bg-dark:hover {
 }
 
 .d-flex {
-  display: -ms-flexbox !important;
-  display: flex !important;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .d-inline-flex {

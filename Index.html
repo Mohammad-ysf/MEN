@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="fa" dir="rtl">
   <head>
     <title>قالب شرکتی تارا</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -22,19 +22,22 @@
       rel="stylesheet"
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
-
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-
   <body id="home">
     <section id="tophead" class="container-fluid p-2 grad-bg">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-sm-5 d-lg-block d-none">
-            <a href="#"><img src="Images/Svg/logo.svg" class="img-fluid" /></a>
+            <a href="#"
+              ><img
+                src="Images/Svg/logo.svg"
+                class="img-fluid"
+                style="width: 48px; height: 56px"
+            /></a>
           </div>
 
           <div class="col-lg-3 col-6 mr-auto">
@@ -73,11 +76,11 @@
               <li>
                 <a
                   id="loginbtn"
-                  href="Login.html"
+                  href="Home-Seller.html"
                   class="btn btn-link p-1 ml-2"
                 >
-                  <img src="Images/Svg/login.svg" /><span class="mr-1"
-                    >ورود</span
+                  <img src="Images/Svg/shop-solid.svg" /><span class="mr-1"
+                    >ورود به فروشندگان</span
                   >
                 </a>
               </li>
@@ -88,7 +91,7 @@
                   class="btn btn-link p-1 ml-2"
                 >
                   <img src="Images/Svg/user.svg" /><span class="mr-1"
-                    >ثبت نام</span
+                    >ثبت نام/ورود</span
                   >
                 </a>
               </li>
@@ -107,18 +110,16 @@
               <img src="Images/logo.png" class="img-fluid" />
             </a>
           </div>
-
           <div class="collapse navbar-collapse" id="navbar-menu">
             <ul class="sina-menu sina-menu-center">
-              <li><a href="Index.html">صفحه اصلی</a></li>
-
-              <li><a href="Gallery.html">گالری تصاویر</a></li>
-              <li><a href="Ourteam.html">معرفی مدیران</a></li>
-              <li><a href="News.html">اخبار و رویدادها</a></li>
+              <li><a href="Index.html">اصلی</a></li>
+              <li><a href="Gallery.html">گا</a></li>
+              <li><a href="Ourteam.html">ص</a></li>
+              <li><a href="News.html">اخبار و بلاگ</a></li>
               <li><a href="Faq.html">سوالات متداول</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                  >برگه ها<i class="fa fa-chevron-down pr-2"></i
+                  >خدمات<i class="fa fa-chevron-down pr-2"></i
                 ></a>
                 <ul class="dropdown-menu">
                   <li><a href="News_Details.html">جزئیات اخبار</a></li>
@@ -150,10 +151,11 @@
         </div>
       </nav>
     </header>
-
-    <section class="container mt-3">
+    <section class="container mt-5">
       <div class="row">
-        <div class="col-lg-3 card pt-2 order-lg-1 order-2 text-center">
+        <div
+          class="col-lg-3 card pt-2 order-lg-1 order-2 text-center d-flex justify-content-center align-items-center"
+        >
           <div class="container">
             <div class="row Qlink">
               <div class="col-lg-12 pt-lg-2">
@@ -179,13 +181,7 @@
                   ><img src="Images/banner3.png" class="img-fluid rad12"
                 /></a>
               </div>
-              <div
-                class="col-lg-12 col-md-3 col-6 mt-lg-2 mb-lg-0 my-md-2 my-1"
-              >
-                <a href="News_Details.html"
-                  ><img src="Images/banner4.png" class="img-fluid rad12"
-                /></a>
-              </div>
+
               <div class="col-lg-12">
                 <img src="Images/foot.png" class="mx-auto img-fluid" />
               </div>
@@ -215,7 +211,7 @@
             <div class="item">
               <a href="#">
                 <img
-                  src="Images/Slides/Slide-2.jpg"
+                  src="Images/Slides/slide-1.svg"
                   alt="slide1"
                   class="img-fluid"
                 />
@@ -232,98 +228,165 @@
       </div>
     </section>
 
-    <section class="container my-4 text-center">
-      <h5 class="IRANSansWeb_Medium bt-color">خدمات ما</h5>
-      <p>کلیه خدمات قابل ارائه لورم ایپسوم از صنعت چاپ</p>
+    <section class="container my-5 text-center rounded">
+      <div
+        class="d-flex flex-row justify-content-center align-items-center mt-5"
+      >
+        <img src="Images/Svg/kenarkhadamt2.svg" alt="" class="mb-3" />
+        <h5 class="IRANSansWeb_Medium mx-3 mb-2 fa-3x font-weight-bold">
+          خدمات ما
+        </h5>
+        <img src="Images/Svg/kenarkhadamt.svg" alt="" class="mb-3" />
+      </div>
       <div id="owl-Service" class="owl-carousel">
-        <div class="card mx-2 my-3">
-          <div class="card-body">
-            <a href="#">
-              <img class="rounded-circle" src="Images/News/5.jpg" alt="" />
-            </a>
-            <h6>آئین نامه ها</h6>
-            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</p>
-            <a
-              href="News_Details.html"
-              class="btn btn-grad px-5 text-white mt-2 rad25"
-              >مشاهده</a
-            >
-          </div>
+        <div
+          class="container d-flex flex-column justify-content-center align-items-center"
+        >
+          <a href="#">
+            <img
+              src="Images/Svg/Khadamt/buyTomb.svg"
+              alt="Icon 2"
+              class="circle-img"
+            />
+          </a>
+          <p class="text-below">خرید قبر</p>
         </div>
-        <div class="card mx-2 my-3">
-          <div class="card-body">
-            <a href="#">
-              <img class="rounded-circle" src="Images/News/6.jpg" alt="" />
-            </a>
-            <h6>بخش نامه ها</h6>
-            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</p>
-            <a
-              href="News_Details.html"
-              class="btn btn-grad px-5 text-white mt-2 rad25"
-              >مشاهده</a
-            >
-          </div>
+        <div
+          class="container d-flex flex-column justify-content-center align-items-center"
+        >
+          <a href="Tashrifat.html">
+            <img
+              src="Images/Svg/Khadamt/ceremoni.svg"
+              alt="Icon 3"
+              class="circle-img"
+            />
+          </a>
+          <p class="text-below">تشریفات</p>
         </div>
-        <div class="card mx-2 my-3">
-          <div class="card-body">
-            <a href="#">
-              <img class="rounded-circle" src="Images/News/news1.png" alt="" />
-            </a>
-            <h6>واحد سازمانی</h6>
-            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</p>
-            <a
-              href="News_Details.html"
-              class="btn btn-grad px-5 text-white mt-2 rad25"
-              >مشاهده</a
-            >
-          </div>
+        <div
+          class="container d-flex flex-column justify-content-center align-items-center"
+        >
+          <a href="#">
+            <img
+              src="Images/Svg/Khadamt/charity.svg"
+              alt="Icon 3"
+              class="circle-img"
+            />
+          </a>
+          <p class="text-below">نذورات</p>
         </div>
-        <div class="card mx-2 my-3">
-          <div class="card-body">
-            <a href="#">
-              <img class="rounded-circle" src="Images/News/news2.jpeg" alt="" />
-            </a>
-            <h6>واحد کارگزینی</h6>
-            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</p>
-            <a
-              href="News_Details.html"
-              class="btn btn-grad px-5 text-white mt-2 rad25"
-              >مشاهده</a
-            >
-          </div>
+        <div
+          class="container d-flex flex-column justify-content-center align-items-center"
+        >
+          <a href="#">
+            <img
+              src="Images/Svg/Khadamt/designTomb.svg"
+              alt="Icon 3"
+              class="circle-img"
+            />
+          </a>
+          <p class="text-below">خرید و ترمیم سنگ قبر</p>
         </div>
-        <div class="card mx-2 my-3">
-          <div class="card-body">
-            <a href="#">
-              <img class="rounded-circle" src="Images/News/news4.png" alt="" />
-            </a>
-            <h6>واحد توسعه</h6>
-            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</p>
-            <a
-              href="News_Details.html"
-              class="btn btn-grad px-5 text-white mt-2 rad25"
-              >مشاهده</a
-            >
-          </div>
+        <div
+          class="container d-flex flex-column justify-content-center align-items-center"
+        >
+          <a href="#">
+            <img
+              src="Images/Svg/Khadamt/ghasalKhane.svg"
+              alt="Icon 3"
+              class="circle-img"
+            />
+          </a>
+          <p class="text-below">رزرو نوبت غسالخانه</p>
         </div>
-        <div class="card mx-2 my-3">
-          <div class="card-body">
-            <a href="#">
-              <img class="rounded-circle" src="Images/News/news3.jpg" alt="" />
-            </a>
-            <h6>واحد فناوری</h6>
-            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</p>
-            <a
-              href="News_Details.html"
-              class="btn btn-grad px-5 text-white mt-2 rad25"
-              >مشاهده</a
-            >
-          </div>
+        <div
+          class="container d-flex flex-column justify-content-center align-items-center"
+        >
+          <a href="#">
+            <img
+              src="Images/Svg/Khadamt/info.svg"
+              alt="Icon 3"
+              class="circle-img"
+            />
+          </a>
+          <p class="text-below">اطلاعات و دلنوشته های متوفیان</p>
+        </div>
+        <div
+          class="container d-flex flex-column justify-content-center align-items-center"
+        >
+          <a href="#">
+            <img
+              src="Images/Svg/Khadamt/locate.svg"
+              alt="Icon 3"
+              class="circle-img"
+            />
+          </a>
+          <p class="text-below">لیست مشاهیر و شهدا</p>
+        </div>
+        <div
+          class="container d-flex flex-column justify-content-center align-items-center"
+        >
+          <a href="#">
+            <img
+              src="Images/Svg/Khadamt/online.svg"
+              alt="Icon 3"
+              class="circle-img"
+            />
+          </a>
+          <p class="text-below">مراسم آنلاین</p>
+        </div>
+        <div
+          class="container d-flex flex-column justify-content-center align-items-center"
+        >
+          <a href="#">
+            <img
+              src="Images/Svg/Khadamt/postDigital.svg"
+              alt="Icon 3"
+              class="circle-img"
+            />
+          </a>
+          <p class="text-below">پست دیجیتال</p>
+        </div>
+        <div
+          class="container d-flex flex-column justify-content-center align-items-center"
+        >
+          <a href="#">
+            <img
+              src="Images/Svg/Khadamt/presell.svg"
+              alt="Icon 3"
+              class="circle-img"
+            />
+          </a>
+          <p class="text-below">پیش خرید قبر</p>
+        </div>
+        <div
+          class="container d-flex flex-column justify-content-center align-items-center"
+        >
+          <a href="#">
+            <img
+              src="Images/Svg/Khadamt/quran.svg"
+              alt="Icon 3"
+              class="circle-img"
+            />
+          </a>
+          <p class="text-below">احکام ودعا اهل قبور</p>
+        </div>
+        <div
+          class="container d-flex flex-column justify-content-center align-items-center"
+        >
+          <a href="#">
+            <img
+              src="Images/Svg/Khadamt/Sms.svg"
+              alt="Icon 3"
+              class="circle-img"
+            />
+          </a>
+          <p class="text-below">ارسال پیامک اطلاع رسانی</p>
         </div>
       </div>
     </section>
 
-    <section class="container Nlist wt_box mt-5 relative">
+    <!-- <section class="container Nlist wt_box mt-5 relative">
       <div class="row">
         <div class="col-lg-9 bx-nws card mb-3">
           <div class="widget-title">
@@ -515,9 +578,9 @@
           /></a>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section class="container Lnews mt-5">
+    <!-- <section class="container Lnews mt-5">
       <div class="row">
         <div class="col-lg-6 mb-3">
           <div class="card wt_box px-3">
@@ -622,16 +685,16 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section class="container mt-5">
       <h5 class="IRANSansWeb_Medium text-center bt-color">
-        آخرین اخبارها و رویدادها
+        آخرین اخبارها و بلاگ ها
       </h5>
       <div id="owl-topnews" class="owl-carousel mt-3 text-center">
         <div class="card my-3 mx-2">
           <a href="News_Details.html" class="relative">
-            <img src="Images/News/news1.png" class="mb-3 img-fluid rad12" />
+            <img src="Images/News/new1.png" class="mb-3 img-fluid rad12" />
             <div
               class="covernews d-flex flex-row justify-content-between px-3 text-white IRANSansWeb_Medium"
             >
@@ -643,14 +706,12 @@
           </a>
 
           <a href="News_Details.html">
-            <h2>
-              اجرای قانون پایانه های فروشگاهی ، نقطه عطفی برای نظام اقتصادی کشور
-              است
-            </h2>
+            <h2>مراسم باشکوه تشییع شهید رییسی</h2>
           </a>
           <p>
-            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ با استفاده
-            ..
+            مراسم تشییع جنازهٔ قربانیان از ۱ خرداد در تبریز آغاز شد. در
+            راهپیمایی تشییع جنازه، جمعیتی حدود ده‌ها هزار نفری حضور داشتند ودیگر
+            هیچ...
           </p>
 
           <a
@@ -661,7 +722,7 @@
         </div>
         <div class="card my-3 mx-2">
           <a href="News_Details.html" class="relative">
-            <img src="Images/News/5.jpg" class="mb-3 img-fluid rad12" />
+            <img src="Images/News/new2.png" class="mb-3 img-fluid rad12" />
             <div class="d-flex flex-column covernews">
               <div
                 class="d-flex flex-row justify-content-between px-3 text-white IRANSansWeb_Medium"
@@ -674,14 +735,12 @@
             </div>
           </a>
           <a href="News_Details.html">
-            <h2>
-              رونمایی از سامانه پرداخت مالیات نقل و انتقال خودرو در مرکز تعویض
-              پلاک خودرو
-            </h2>
+            <h2>پیاده روی اربعین 1403</h2>
           </a>
           <p>
-            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ با استفاده
-            ..
+            پیاده‌روی اربعین مراسم و گردهمایی مذهبی است که توسط مسلمانان شیعه و
+            به‌صورت پیاده‌روی از مسیرهای منتهی به کربلا به‌منظور زیارت و جمع شدن
+            همه آنها در ...
           </p>
           <a
             href="News_Details.html"
@@ -692,7 +751,7 @@
 
         <div class="card my-3 mx-2">
           <a href="News_Details.html" class="relative">
-            <img src="Images/News/news3.jpg" class="mb-3 img-fluid rad12" />
+            <img src="Images/News/new3.png" class="mb-3 img-fluid rad12" />
             <div
               class="covernews d-flex flex-row justify-content-between px-3 text-white IRANSansWeb_Medium"
             >
@@ -703,14 +762,12 @@
             </div>
           </a>
           <a href="News_Details.html">
-            <h2>
-              امکان استعلام ممنوع الخروجی از طریق درگاه ملی خدمات الکترونیک
-              سازمان مالیاتی
-            </h2>
+            <h2>حج</h2>
           </a>
           <p>
-            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ با استفاده
-            ..
+            حَجّ یکی از زیارت‌های و آداب عملی اسلامی است که برای زیارت خانه خدا
+            در مکه، در عربستان سعودی، به صورت سالانه برگزار می‌شود.حج یک امر
+            دینی واجب برای مسلمانان ...
           </p>
           <a
             href="News_Details.html"
@@ -720,7 +777,7 @@
         </div>
         <div class="card my-3 mx-2">
           <a href="News_Details.html" class="relative">
-            <img src="Images/News/news2.jpeg" class="mb-3 img-fluid rad12" />
+            <img src="Images/News/new4.jpg" class="mb-3 img-fluid rad12" />
             <div
               class="covernews d-flex flex-row justify-content-between px-3 text-white IRANSansWeb_Medium"
             >
@@ -731,13 +788,11 @@
             </div>
           </a>
           <a href="News_Details.html">
-            <h2>
-              اطلاعیه مهم: فرصت دوباره برای فعال سازی مجدد پذیرنده های بانکی
-            </h2>
+            <h2>آداب دقیق خاکسپاری و سوگواری</h2>
           </a>
           <p>
-            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ با استفاده
-            ..
+            آداب خاک سپاری و دفن میت، دو قسم است:الف) واجبات:1. میت باید طور دفن
+            شود که بوی او بیرون نیاید و درندگان هم نتوانند بدنش را بیرون آوردند
           </p>
           <a
             href="News_Details.html"
@@ -747,7 +802,7 @@
         </div>
         <div class="card my-3 mx-2">
           <a href="News_Details.html" class="relative">
-            <img src="Images/News/news1.png" class="mb-3 img-fluid rad12" />
+            <img src="Images/News/new5.png" class="mb-3 img-fluid rad12" />
             <div
               class="covernews d-flex flex-row justify-content-between px-3 text-white IRANSansWeb_Medium"
             >
@@ -758,14 +813,12 @@
             </div>
           </a>
           <a href="News_Details.html">
-            <h2>
-              امکان استعلام ممنوع الخروجی از طریق درگاه ملی خدمات الکترونیک
-              سازمان مالیاتی
-            </h2>
+            <h2>زندگی نامه شهید ابراهیم هادی</h2>
           </a>
           <p>
-            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ با استفاده
-            ..
+            شهید ابراهیم هادی، شهیدی که هنوز پیکرش در کربلای فکه گمنام باقی
+            مانده است. این شهید گرانقدر الگوی مناسبی برای جوانان می باشد، چرا که
+            در عین شور و شوق جوانی، ...
           </p>
           <a
             href="News_Details.html"
@@ -775,7 +828,7 @@
         </div>
         <div class="card my-3 mx-2">
           <a href="News_Details.html" class="relative">
-            <img src="Images/News/news2.jpeg" class="mb-3 img-fluid rad12" />
+            <img src="Images/News/new6.jpg" class="mb-3 img-fluid rad12" />
             <div
               class="covernews d-flex flex-row justify-content-between px-3 text-white IRANSansWeb_Medium"
             >
@@ -786,13 +839,12 @@
             </div>
           </a>
           <a href="News_Details.html">
-            <h2>
-              اطلاعیه مهم: فرصت دوباره برای فعال سازی مجدد پذیرنده های بانکی
-            </h2>
+            <h2>عجیب ترین مراسم تدفین در دنیا</h2>
           </a>
           <p>
-            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ با استفاده
-            ..
+            در سراسر دنیا مراسم های تدفین و کفن و دفنی وجود دارد که به دلیل آداب
+            و رسوم و فرهنگ متفاوت آن قوم و قبیله، عجیب و غریب و گاهی حتی ترسناک
+            به نظر می‌رسند. ...
           </p>
           <a
             href="News_Details.html"
@@ -802,7 +854,7 @@
         </div>
         <div class="card my-3 mx-2">
           <a href="News_Details.html" class="relative">
-            <img src="Images/News/news4.png" class="mb-3 img-fluid rad12" />
+            <img src="Images/News/new7.jpg" class="mb-3 img-fluid rad12" />
             <div
               class="covernews d-flex flex-row justify-content-between px-3 text-white IRANSansWeb_Medium"
             >
@@ -813,14 +865,12 @@
             </div>
           </a>
           <a href="News_Details.html">
-            <h2>
-              امکان استعلام ممنوع الخروجی از طریق درگاه ملی خدمات الکترونیک
-              سازمان مالیاتی
-            </h2>
+            <h2>قیمت قبر در مشهد 1403</h2>
           </a>
           <p>
-            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ با استفاده
-            ..
+            یکی از هزینه های مراسم ترحیم به هزینه جاقبر در مشهد مربوط می شود
+            و تشریفات ختم و ترحیم بهشت با توجه به متعدد بودن قبرستان های مشهد
+            اقدام به ...
           </p>
           <a
             href="News_Details.html"
@@ -830,14 +880,14 @@
         </div>
         <div class="card my-3 mx-2">
           <a href="News_Details.html" class="relative">
-            <img src="Images/News/news3.jpg" class="mb-3 img-fluid rad12" />
+            <img src="Images/News/ class="mb-3 img-fluid rad12" />
             <div
               class="covernews d-flex flex-row justify-content-between px-3 text-white IRANSansWeb_Medium"
             >
               <span class="bottom_p"
-                ><i class="fas fa-clock ml-1"></i>98/5/9</span
+                ><i class="fas fa-clock ml-1"></i>03/5/9</span
               >
-              <span><i class="fas fa-eye ml-1"></i>28 بار</span>
+              <span><i class="fas fa-eye ml-1"></i>45 بار</span>
             </div>
           </a>
           <a href="News_Details.html">
@@ -857,8 +907,54 @@
         </div>
       </div>
     </section>
+    <section class="container text-center pb-5">
+      <h5 class="IRANSansWeb_Bold bt-color">لینک های مرتبط</h5>
+      <p>جهت مشاهده بر روی هر لینک کلیک کرده و وارد سایت مربوطه شوید</p>
+      <div id="owl-province" class="owl-carousel mt-4">
+        <div class="card m-2">
+          <a href="#">
+            <img src="Images/Svg/bimeh/IRAN.svg" class="rad25" />
+          </a>
+        </div>
+        <div class="card m-2">
+          <a href="#">
+            <img src="Images/Svg/bimeh/KARAFARIN.svg" class="rad25" />
+          </a>
+        </div>
+        <div class="card m-2">
+          <a href="#">
+            <img src="Images/Svg/bimeh/MELLAT.svg" class="rad25" />
+          </a>
+        </div>
+        <div class="card m-2">
+          <a href="#">
+            <img src="Images/Svg/bimeh/MOALLEM.svg" class="rad25" />
+          </a>
+        </div>
+        <div class="card m-2">
+          <a href="#">
+            <img src="Images/Svg/bimeh/PASARGAD.svg" class="rad25" />
+          </a>
+        </div>
+        <div class="card m-2">
+          <a href="#">
+            <img src="Images/Svg/bimeh/RAZI.svg" class="rad25" />
+          </a>
+        </div>
+        <div class="card m-2">
+          <a href="#">
+            <img src="Images/Svg/bimeh/SINA.svg" class="rad25" />
+          </a>
+        </div>
+        <div class="card m-2">
+          <a href="#">
+            <img src="Images/Svg/bimeh/MA.svg" class="rad25" />
+          </a>
+        </div>
+      </div>
+    </section>
 
-    <section class="container-fluid py-5">
+    <!-- <section class="container-fluid py-5">
       <div class="container">
         <div
           id="foottop"
@@ -879,87 +975,13 @@
           </div>
         </div>
       </div>
-    </section>
-
-    <section class="container text-center pb-5">
-      <h5 class="IRANSansWeb_Bold bt-color">لینک های مرتبط</h5>
-      <p>جهت مشاهده بر روی هر لینک کلیک کرده و وارد سایت مربوطه شوید</p>
-      <div id="owl-province" class="owl-carousel mt-4">
-        <div class="card m-2">
-          <a href="#">
-            <img src="Images/llogo-01.png" class="rad25" />
-          </a>
-        </div>
-        <div class="card m-2">
-          <a href="#">
-            <img src="Images/llogo-02.png" class="rad25" />
-          </a>
-        </div>
-        <div class="card m-2">
-          <a href="#">
-            <img src="Images/llogo-03.png" class="rad25" />
-          </a>
-        </div>
-        <div class="card m-2">
-          <a href="#">
-            <img src="Images/llogo-05.png" class="rad25" />
-          </a>
-        </div>
-        <div class="card m-2">
-          <a href="#">
-            <img src="Images/llogo-06.png" class="rad25" />
-          </a>
-        </div>
-        <div class="card m-2">
-          <a href="#">
-            <img src="Images/llogo-01.png" class="rad25" />
-          </a>
-        </div>
-        <div class="card m-2">
-          <a href="#">
-            <img src="Images/llogo-02.png" class="rad25" />
-          </a>
-        </div>
-        <div class="card m-2">
-          <a href="#">
-            <img src="Images/llogo-03.png" class="rad25" />
-          </a>
-        </div>
-      </div>
-    </section>
+    </section> -->
 
     <footer class="rel-footer">
       <div id="footer-content">
         <div class="container">
           <div class="row pt-4 mx-2">
-            <div class="col-lg-4 col-sm-6 py-3 order-lg-1 order-1 pl-lg-2">
-              <h5 class="IRANSansWeb_Medium">آخرین ارسالی ها :</h5>
-              <ul>
-                <li>
-                  <a href="Ourteam.html" title=""
-                    >اجرای قانون پایانه های فروشگاهی ، نقطه عطفی برای نظام
-                    اقتصادی کشور است
-                  </a>
-                </li>
-                <li>
-                  <a href="News.html" title=""
-                    >رونمایی از سامانه پرداخت مالیات نقل و انتقال خودرو در مرکز
-                    تعویض پلاک خودرو</a
-                  >
-                </li>
-                <li>
-                  <a href="News_Details.html" title="">
-                    افزایش حقوق معلمان چه زمانی واریز می شود؟
-                  </a>
-                </li>
-                <li>
-                  <a href="Component.html" title=""
-                    >فرصت دوباره برای فعال سازی مجدد پذیرنده های بانک</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div class="col-lg-2 col-sm-6 py-3 order-lg-1 order-1">
+            <div class="col-lg-3 col-sm-6 py-3 order-lg-1 order-1">
               <h5 class="IRANSansWeb_Medium">لینک های سریع :</h5>
               <ul>
                 <li>
@@ -979,7 +1001,7 @@
                 </li>
               </ul>
             </div>
-            <div class="col-lg-2 col-sm-6 py-3 order-lg-2 order-3">
+            <div class="col-lg-3 col-sm-6 py-3 order-lg-2 order-3">
               <h5 class="IRANSansWeb_Medium">پیوندها :</h5>
               <ul>
                 <li>
@@ -1001,12 +1023,12 @@
               </ul>
             </div>
             <div
-              class="col-lg-4 col-sm-6 pr-lg-4 py-3 IRANSansWeb_FaNum order-lg-3 order-2"
+              class="col-lg-3 col-sm-6 pr-lg-4 py-3 IRANSansWeb_FaNum order-lg-3 order-2"
             >
               <h5 class="IRANSansWeb_Medium">ارتباط با ما :</h5>
               <p>
-                <i class="fas fa-2x fa-map-marker-alt ml-2"></i>آدرس : شهرستان
-                گنبدکاووس - خیابان آزادگان - میدان فراغی
+                <i class="fas fa-2x fa-map-marker-alt ml-2"></i>آدرس : مشهد ،
+                خیابان دانشگاه
               </p>
               <p><i class="fas fa-2x fa-phone ml-2"></i>تلفن : 01733224455</p>
               <p>
@@ -1014,6 +1036,22 @@
                 09301234567
               </p>
               <p><i class="fas fa-2x fa-fax ml-2"></i>نمابر : 09301234567</p>
+            </div>
+            <div
+              class="col-lg-3 col-sm-6 pr-lg-4 py-3 IRANSansWeb_FaNum order-lg-3 order-2"
+            >
+              <img src="Images/Svg/aparat.svg" alt="" class="mx-2" />
+              <img
+                src="Images/Svg/linkedin-svgrepo-com.svg"
+                alt=""
+                class="mx-2"
+              />
+              <img
+                src="Images/Svg/noun-instagram-7139236.svg"
+                alt=""
+                class="mx-2"
+              />
+              <div><img src="Images/namad.svg" alt="" class="mt-3" /></div>
             </div>
           </div>
         </div>
@@ -1023,7 +1061,7 @@
           <div class="row">
             <div class="col-md-12">
               <a href="#" class="text-white">
-                کلیه حقوق این قالب برای طراح محفوظ می باشد .
+                کلیه حقوق این سایت برای کوثر رضوان می باشد .
               </a>
             </div>
           </div>
