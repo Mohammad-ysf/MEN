@@ -12,6 +12,10 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: Nastealigh;
+  src: url(../Fonts/IranNastaliq.ttf);
+}
 
 @font-face {
   font-family: "IRANSansWeb_FaNum_Light";
@@ -226,6 +230,10 @@ a {
   -moz-box-shadow: unset !important;
   -webkit-box-shadow: unset !important;
   box-shadow: unset !important;
+  margin-top: 50px;
+  margin-left: 12px;
+  margin-right: 12px;
+  font-size: 4rem;
 }
 
 #owl-Service img,
@@ -2410,4 +2418,7 @@ td {
 .form-select {
   border-radius: 12px;
   border: 1px solid #b3b3b4;
+}
+.nastealigh {
+  font-family: Nastealigh;
 }

@@ -5,20 +5,32 @@ body {
   direction: rtl;
   background-color: white;
 }
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  position: relative;
+}
 
 .hero-section {
-  background-image: url("../Images/haram.svg"); /* مسیر تصویر خود را جایگزین کنید */
+  background-image: url("../Css/image.png"); /* مسیر تصویر خود را جایگزین کنید */
   background-size: cover;
   background-position: center;
   height: 100vh;
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: end;
   text-align: center;
   color: white;
-  z-index: -2;
+  z-index: -1;
   overflow: hidden;
+  position: relative;
+}
+.title {
+  position: relative;
+  padding: 2rem 8rem;
+  font-size: 8rem;
 }
 
 /* استایل منو */

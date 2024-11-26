@@ -24,7 +24,7 @@
   height: 34px;
   border: 0;
   /*box-shadow: 0 0 0;*/
-  color: #9a1780;
+  color: #000000;
   background-color: transparent;
   font-size: 0.9rem !important;
 }
@@ -64,7 +64,7 @@
   z-index: 999;
   left: 0;
   right: 0;
-  background: #e3fef7;
+  background: #000000;
   border: 1px solid #eee;
   transition: box-shadow, border, background 0.5s ease-in-out;
 }
@@ -319,7 +319,7 @@
 .sina-nav .menu-item-has-mega-menu.dropdown .mega-menu.dropdown-menu {
   width: 100%;
   padding: 0;
-  background-color: #e3fef7;
+  background-color: #b0ffea;
   /*border-top: 2px solid #b062d5;*/
   -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
@@ -358,11 +358,12 @@
 
 .sina-nav.navbar-fixed {
   position: relative;
-  background: #fff;
+  background: rgba(255, 255, 255);
   /*border-bottom: 1px solid #25c9da;*/
-  -moz-box-shadow: 0 2px 3px 0 rgba(12, 124, 113, 0.3);
+  /* -moz-box-shadow: 0 2px 3px 0 rgba(12, 124, 113, 0.3);
   -webkit-box-shadow: 0 2px 3px 0 rgba(12, 124, 113, 0.3);
-  box-shadow: 0 2px 3px 0 rgba(12, 124, 113, 0.3);
+  box-shadow: 0 2px 3px 0 rgba(12, 124, 113, 0.3); */
+  font-weight: bold;
 }
 
 .sina-nav .extension-nav {

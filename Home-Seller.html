@@ -14,6 +14,7 @@
     <link href="Css/animate.css" rel="stylesheet" />
     <link href="Css/home-seller.css" rel="stylesheet" />
     <link href="Css/owl-carousel/owl.carousel.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="Css/Style.css" />
 
     <link href="Css/sina-nav.min.css" rel="stylesheet" />
 
@@ -28,30 +29,99 @@
     <![endif]-->
   </head>
   <body>
-    <div class="hero-section">
-      <header>
-        <nav>
-          <img src="Images/logo2.png" alt="" />
-          <ul class="nav">
-            <li><a href="#">ورود به دکان</a></li>
-            <li><a href="#">ثبت نام فروشندگان</a></li>
-          </ul>
-        </nav>
-      </header>
+    <header class="nav-container fixed-top">
+      <nav class="sina-nav navbar-fixed" data-top="280">
+        <div class="container">
+          <div class="extension-nav">
+            <ul class="pt-2">
+              <li>
+                <a
+                  id="loginbtn"
+                  href="Home-Seller.html"
+                  class="btn btn-link p-1 ml-2"
+                >
+                  <img src="Images/Svg/shop-solid.svg" /><span class="mr-1"
+                    >ورود به فروشندگان</span
+                  >
+                </a>
+              </li>
+              <li>
+                <a
+                  id="loginbtn"
+                  href="Register.html"
+                  class="btn btn-link p-1 ml-2"
+                >
+                  <img src="Images/Svg/user.svg" /><span class="mr-1"
+                    >ثبت نام/ورود</span
+                  >
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="sina-nav-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#navbar-menu"
+            >
+              <i class="fa fa-bars"></i>
+            </button>
+            <a class="sina-brand pl-4 d-lg-none d-block" href="Index.html">
+              <img src="Images/logo.png" class="img-fluid" />
+            </a>
+          </div>
+          <div class="collapse navbar-collapse" id="navbar-menu">
+            <ul class="sina-menu sina-menu-center">
+              <li>
+                <img src="Images/Svg/logo.svg" alt="" style="width: 90px" />
+              </li>
+              <li><a href="Gallery.html">گا</a></li>
+              <li><a href="Ourteam.html">ص</a></li>
+              <li><a href="News.html">اخبار و بلاگ</a></li>
+              <li><a href="Faq.html">سوالات متداول</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                  >خدمات<i class="fa fa-chevron-down pr-2"></i
+                ></a>
+                <ul class="dropdown-menu">
+                  <li><a href="News_Details.html">جزئیات اخبار</a></li>
+                  <li><a href="Component.html">المان ها</a></li>
+                  <li><a href="Features.html">ویژگی ها</a></li>
+                  <li><a href="Guide.html">راهنمای استفاده</a></li>
+                  <li><a href="Price.html">جدول تعرفه</a></li>
+                  <li><a href="404.html">صفحه 404</a></li>
+                </ul>
+              </li>
 
-      <!-- مستطیل سبز -->
-      <div class="green-rectangle"></div>
-      <!-- موج -->
-      <img src="Images/Svg/wave.svg" alt="" class="wave" />
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                  >سایر برگه ها<i class="fa fa-chevron-down pr-2"></i
+                ></a>
+                <ul class="dropdown-menu">
+                  <li><a href="Service.html">خدمات</a></li>
+                  <li><a href="Success.html">ثبت موفق</a></li>
+                  <li><a href="UnSuccess.html">ثبت ناموفق</a></li>
+                  <li><a href="Waiting.html">صفحه انتظار</a></li>
+                  <li><a href="Blank.html">صفحه خالی</a></li>
+                </ul>
+              </li>
+
+              <li><a href="AboutUs.html">درباره ما</a></li>
+              <li><a href="ContactUs.html">ارتباط با ما</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="hero-section">
       <div class="content">
-        <h1 class="mb-5">در کوثر رضوان فروشنده شوید</h1>
-        <p>در کمترین زمان فروشگاه خود را راه‌اندازی کنید</p>
+        <h1 class="title">کوثر <span> dsfvs dfsf em</span>رضوان</h1>
+        <p class="">در کوثر رضوان فروشنده شوید.</p>
       </div>
     </div>
-    <section
-      class="container-fluid mazaia d-flex flex-column justify-content-around align-items-center"
-    >
-      <h4>مزایای عضویت در کوثر رضوان</h4>
+    <section class="container-fluid mazaia">
+      <h4 class="text-center text">مزایای عضویت در کوثر رضوان</h4>
       <div class="d-flex flex-row justify-content-around">
         <div class="d-flex flex-column align-items-center">
           <img src="Images/Svg/star&person.svg" alt="" />

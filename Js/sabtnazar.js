@@ -32,3 +32,91 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+document.addEventListener("DOMContentLoaded", () => {
+  const likeBtn = document.getElementById("like");
+  const dislikeBtn = document.getElementById("dislike");
+  const likeIcon = document.getElementById("like-icon");
+  const dislikeIcon = document.getElementById("dislike-icon");
+
+  let likeCount = 0;
+  let dislikeCount = 0;
+  let isLiked = false;
+  let isDisliked = false;
+
+  likeBtn.addEventListener("click", () => {
+    if (!isLiked) {
+      // Add like
+      likeCount++;
+      likeBtn.innerHTML = `${likeCount} <i id="like-icon" class="fas fa-thumbs-up fa-2x"></i>`;
+      isLiked = true;
+
+      // Remove dislike if exists
+      if (isDisliked) {
+        dislikeCount--;
+        dislikeBtn.innerHTML = `${dislikeCount} <i id="dislike-icon" class="far fa-thumbs-down fa-2x"></i>`;
+        isDisliked = false;
+      }
+    } else {
+      // Remove like
+      likeCount--;
+      likeBtn.innerHTML = `${likeCount} <i id="like-icon" class="far fa-thumbs-up fa-2x"></i>`;
+      isLiked = false;
+    }
+  });
+
+  dislikeBtn.addEventListener("click", () => {
+    if (!isDisliked) {
+      // Add dislike
+      dislikeCount++;
+      dislikeBtn.innerHTML = `${dislikeCount} <i id="dislike-icon" class="fas fa-thumbs-down fa-2x"></i>`;
+      isDisliked = true;
+
+      // Remove like if exists
+      if (isLiked) {
+        likeCount--;
+        likeBtn.innerHTML = `${likeCount} <i id="like-icon" class="far fa-thumbs-up fa-2x"></i>`;
+        isLiked = false;
+      }
+    } else {
+      // Remove dislike
+      dislikeCount--;
+      dislikeBtn.innerHTML = `${dislikeCount} <i id="dislike-icon" class="far fa-thumbs-down fa-2x"></i>`;
+      isDisliked = false;
+    }
+  });
+});
+document.addEventListener("DOMContentLoaded", function () {
+  // Get the submit button
+  const submitBtn = document.querySelector(".submit-btn");
+  const feedbackModal = new bootstrap.Modal(
+    document.getElementById("feedbackModal")
+  );
+  const successModal = new bootstrap.Modal(
+    document.getElementById("successModal")
+  );
+
+  // Show feedback modal when submit button is clicked
+  submitBtn.addEventListener("click", function () {
+    feedbackModal.show();
+  });
+
+  // Handle sending feedback
+  document
+    .getElementById("sendFeedback")
+    .addEventListener("click", function () {
+      const comment = document.getElementById("comment").value;
+
+      if (comment.trim() !== "") {
+        // Here you can add code to send the feedback to your server
+
+        // Close feedback modal
+        feedbackModal.hide();
+
+        // Clear the form
+        document.getElementById("comment").value = "";
+
+        // Show success modal
+        successModal.show();
+      }
+    });
+});
