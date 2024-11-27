@@ -1,0 +1,28 @@
+body{
+    box-sizing: border-box;
+}
+
+.card_mashahir{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 0.5rem;
+}
+
+.image_mashahir img{
+    height: 100%;
+    width: 7rem;
+    border-radius: 16px;
+    
+}
+
+.text_mashahir{
+    margin-right: 1rem;
+}
+
+.mashahir_info :hover{
+    transition: all 0.2s ease-in;
+    transform:scale(102%);
+}

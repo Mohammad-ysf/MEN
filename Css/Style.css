@@ -894,7 +894,7 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: 1.9 !important;
+  line-height: 1.9 ;
 }
 
 .form-control {
@@ -1213,7 +1213,7 @@ ul.inline li {
 }
 
 .bg-light {
-  background-color: #e5ebf2 !important;
+  background-color: #e5ebf2 ;
 }
 
 .online {
@@ -2077,7 +2077,7 @@ ul.breadcrumb li a:hover {
 
 .bx-nws .h2,
 h2 {
-  font-size: 0.9rem !important;
+  font-size: 0.9rem;
   font-family: IRANSansWeb_FaNum_Medium;
   padding-right: 3px;
   color: #123a74;
@@ -2787,6 +2787,11 @@ footer p {
   color: red;
 }
 
+.container_filter ul{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
 
 .img-madah {
   /* border-radius: 50%; */
@@ -2796,4 +2801,14 @@ footer p {
   border-radius: 1rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+.date_bord{
+  background-color: #003c43;
+  color: #fff;
+}
+
+.cards:hover{
+  transition: all 0.2s ease-in;
+  transform:scale(102%);
 }

@@ -1,0 +1,29 @@
+body{
+    box-sizing: border-box;
+}
+
+.info_masjed{
+    width: 50%;
+    flex-direction: column;
+}
+
+.icones{
+    display: block;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.images{
+    margin-left: 6px;
+}
+
+.mid_date{
+    background-color: #003c43;
+    color: #fff;
+    line-height: 1rem;
+}
+
+.arrow_date{
+    background-color: #fff;
+    color: #003c43;
+}
