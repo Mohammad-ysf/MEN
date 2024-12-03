@@ -1,16 +1,7 @@
 body {
-  font-family: "IRANSans", sans-serif;
   margin: 0;
   padding: 0;
   direction: rtl;
-  background-color: white;
-}
-.banner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 800px;
-  position: relative;
 }
 
 .hero-section {
@@ -26,11 +17,12 @@ body {
   z-index: -1;
   overflow: hidden;
   position: relative;
+  border-bottom-left-radius: 1.75rem;
+  border-bottom-right-radius: 1.75rem;
 }
 .title {
   position: relative;
-  padding: 2rem 8rem;
-  font-size: 8rem;
+  font-size: 6rem;
 }
 
 /* استایل منو */
@@ -73,12 +65,7 @@ nav {
 h1 {
   font-size: 3rem;
   font-weight: bold;
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    237deg,
-    rgba(255, 255, 255, 1) 16%,
-    rgba(204, 138, 33, 1) 52%
-  );
+  background: #ffffff;
   background-clip: text;
   color: transparent;
 }
@@ -112,7 +99,8 @@ h1 {
   overflow: hidden;
 }
 h4 {
-  margin-top: 12px;
+  font-size: 2rem;
+  margin: 6rem 0;
 }
 .mazaia {
   background: rgb(230, 249, 249);
@@ -121,4 +109,86 @@ h4 {
     rgba(206, 232, 232, 1) 52%
   );
   padding: 25px;
+}
+.btn-seller {
+  background-color: #003c43;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 4rem;
+  margin-right: 1rem;
+  -webkit-box-shadow: 0px 0px 66px 22px rgba(0, 36, 23, 0.8);
+  -moz-box-shadow: 0px 0px 66px 22px rgba(0, 36, 23, 0.8);
+  box-shadow: 0px 0px 66px 22px rgba(0, 36, 23, 0.8);
+}
+.title-txt {
+  color: #003c43;
+}
+.mazaia-contant {
+  gap: 0.75rem;
+}
+.border-seller {
+  border: 2px solid #003c43;
+  border-radius: 1rem;
+}
+.faraiand {
+  background: rgb(233, 239, 236);
+  background: linear-gradient(
+    180deg,
+    rgba(233, 239, 236, 1) 0%,
+    rgba(206, 232, 232, 1) 100%
+  );
+  border-radius: 1rem;
+}
+.gap-def {
+  gap: 1rem;
+  padding-bottom: 4rem;
+}
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.accordion__item {
+  border: 1px solid #e5f3fa;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.accordion__header {
+  padding: 20px 25px;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  padding-right: 3rem;
+}
+
+.accordion__header::after {
+  content: "";
+  background: url(https://www.svgrepo.com/show/357035/angle-down.svg) no-repeat
+    center;
+  width: 20px;
+  height: 20px;
+  transition: 0.4s;
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 1;
+}
+
+.accordion__header.active {
+  background: #cee8e8;
+}
+
+.accordion__header.active::after {
+  transform: rotateX(180deg);
+}
+
+.accordion__item .accordion__content {
+  padding: 0 25px;
+  max-height: 0;
+  transition: 0.5s;
+  overflow: hidden;
 }

@@ -13,10 +13,13 @@
   font-style: normal;
 }
 @font-face {
-  font-family: Nastealigh;
-  src: url(../Fonts/IranNastaliq.ttf);
+  font-family: Byekan;
+  src: url(../Fonts/BYekan+.ttf);
 }
-
+@font-face {
+  font-family: ByekanBold;
+  src: url(../Fonts/BYekan+\ Bold.ttf);
+}
 @font-face {
   font-family: "IRANSansWeb_FaNum_Light";
   src: url("../Fonts/IRANSansWeb(FaNum)_Light.eot");
@@ -2419,6 +2422,9 @@ td {
   border-radius: 12px;
   border: 1px solid #b3b3b4;
 }
-.nastealigh {
-  font-family: Nastealigh;
+.byekan {
+  font-family: Byekan;
+}
+.byekan-bold {
+  font-family: ByekanBold;
 }
