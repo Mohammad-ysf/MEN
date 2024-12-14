@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>گزارش ها و نمایش فاکتور</title>
+    <link rel="stylesheet" href="./Css/Style.css">
+    
+    <link href="Css/bootstrap.min.css" rel="stylesheet" />
+    <link href="Css/bootstrap-rtl.min.css" rel="stylesheet" />
+    <link href="Css/animate.css" rel="stylesheet" />
+    <link href="Css/Style.css" rel="stylesheet" />
+    <link href="Css/owl-carousel/owl.carousel.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./Css/factor.css">
+    <link href="Css/sina-nav.min.css" rel="stylesheet" />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      rel="stylesheet"
+    />
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<body id="home">
+    <section id="tophead" class="container-fluid p-2 grad-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-sm-5 d-lg-block d-none">
+              <a href="#"
+                ><img
+                  src="Images/Svg/logo.svg"
+                  class="img-fluid"
+                  style="width: 48px; height: 56px"
+              /></a>
+            </div>
+  
+            <div class="col-lg-3 col-6 mr-auto">
+              <div class="d-flex flex-column">
+                <span class="text-white"> امروز یـکشنبه 22 ارديبهشت 1401 </span>
+                <div class="input-group rounded">
+                  <input
+                    type="search"
+                    class="form-control rounded"
+                    placeholder="جستجو"
+                    aria-label="جستجو"
+                    aria-describedby="search-addon"
+                  />
+                  <span
+                    class="input-group-text border-0 rounded"
+                    id="search-addon"
+                  >
+                    <i class="fas fa-search"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-1 col-6 text-left">
+              <img src="Images/flag.png" class="pt-sm-4 flag img-fluid" />
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <header class="nav-container">
+        <nav class="sina-nav mobile-sidebar navbar-fixed" data-top="60">
+          <div class="container">
+            <div class="extension-nav">
+              <ul class="pt-2">
+                <li>
+                  <a
+                    id="loginbtn"
+                    href="Login.html"
+                    class="btn btn-link p-1 ml-2"
+                  >
+                    <img src="Images/Svg/shop-solid.svg" /><span class="mr-1"
+                      >ورود به فروشندگان</span
+                    >
+                  </a>
+                </li>
+                <li>
+                  <a
+                    id="loginbtn"
+                    href="Register.html"
+                    class="btn btn-link p-1 ml-2"
+                  >
+                    <img src="Images/Svg/user.svg" /><span class="mr-1"
+                      >ثبت نام/ورود</span
+                    >
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="sina-nav-header">
+              <button
+                type="button"
+                class="navbar-toggle"
+                data-toggle="collapse"
+                data-target="#navbar-menu"
+              >
+                <i class="fa fa-bars"></i>
+              </button>
+              <a class="sina-brand pl-4 d-lg-none d-block" href="Index.html">
+                <img src="Images/logo.png" class="img-fluid" />
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-menu">
+              <ul class="sina-menu sina-menu-center">
+                <li><a href="Index.html">اصلی</a></li>
+                <li><a href="Gallery.html">گا</a></li>
+                <li><a href="Ourteam.html">ص</a></li>
+                <li><a href="News.html">اخبار و بلاگ</a></li>
+                <li><a href="Faq.html">سوالات متداول</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                    >خدمات<i class="fa fa-chevron-down pr-2"></i
+                  ></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="News_Details.html">جزئیات اخبار</a></li>
+                    <li><a href="Component.html">المان ها</a></li>
+                    <li><a href="Features.html">ویژگی ها</a></li>
+                    <li><a href="Guide.html">راهنمای استفاده</a></li>
+                    <li><a href="Price.html">جدول تعرفه</a></li>
+                    <li><a href="404.html">صفحه 404</a></li>
+                  </ul>
+                </li>
+  
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                    >سایر برگه ها<i class="fa fa-chevron-down pr-2"></i
+                  ></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="Service.html">خدمات</a></li>
+                    <li><a href="Success.html">ثبت موفق</a></li>
+                    <li><a href="UnSuccess.html">ثبت ناموفق</a></li>
+                    <li><a href="Waiting.html">صفحه انتظار</a></li>
+                    <li><a href="Blank.html">صفحه خالی</a></li>
+                  </ul>
+                </li>
+  
+                <li><a href="AboutUs.html">درباره ما</a></li>
+                <li><a href="ContactUs.html">ارتباط با ما</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <h3 style="margin: 20px;">گزارش ها و نمایش فاکتور</h3>
+
+      <div class="slider">
+        <div class="holder1 money_card">
+            <div class="styles">
+                <p>فروش در ماه جازی</p>
+                <span style="color: green;">4،500،000 تومان</span>
+            </div>
+            <div class="styles" style="gap: 12%;">
+                <p>برداشت کل</p>
+                <span>4،000،000 تومان</span>
+            </div>
+            <div class="styles" style="gap: 5%;">
+                <p>مانده در کیف پول</p>
+                <span>1،000،000 تومان</span>
+            </div>
+            <button class="submit">واریز به حساب</button>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 8%; ">
+            <div class="holder1 card1">
+                <div class="styles">
+                    <p>فروش در هفته جاری</p>
+                    <span style="color: green;">10،000،000 تومان</span>
+                </div>
+                <div class="styles">
+                    <p>تعداد مرجوعی ها</p>
+                    <span>5،000،000 تومان</span>
+                </div>
+            </div>
+            <div class="holder1 card1">
+                <div class="styles">
+                    <p>فروش در سال جاری</p>
+                    <span style="color: green;">10،000،000 تومان</span>
+                </div>
+                <div class="styles">
+                    <p>تعداد مرجوعی ها</p>
+                    <span>5،000،000 تومان</span>
+                </div>
+            </div>
+        </div>
+        <div class="holder1 money_card" style="width: 35%;">
+            <div class="styles">
+                <p>فروش در امروز</p>
+                <span class="rang">10،000،000 تومان</span>
+            </div>
+            <div class="styles" style="gap: 12%;">
+                <p>سفارش های درحال اماده سازی</p>
+                <span class="rang">4،000،000 تومان</span>
+            </div>
+            <div class="styles" style="gap: 5%;">
+                <p>سفارش های مرجوع شده</p>
+                <span class="rang">1،000،000 تومان</span>
+            </div>
+            <div class="styles" style="gap: 5%;">
+                <p>محصولات تحویل داده شده</p>
+                <span class="rang">1،000،000 تومان</span>
+            </div>
+        </div>
+      </div>
+      
+      <canvas id="myChart" style="width: 80%; margin: 2rem auto;"></canvas>
+
+      <footer class="rel-footer">
+        <div id="footer-content">
+          <div class="container">
+            <div class="row pt-4 mx-2">
+              <div class="col-lg-3 col-sm-6 py-3 order-lg-1 order-1">
+                <h5 class="IRANSansWeb_Medium">لینک های سریع :</h5>
+                <ul>
+                  <li>
+                    <a href="Ourteam.html" title="">مدیران و معاونان</a>
+                  </li>
+                  <li>
+                    <a href="News.html" title="">اخبار و رویدادها</a>
+                  </li>
+                  <li>
+                    <a href="News_Details.html" title="">جزئیات اخبار </a>
+                  </li>
+                  <li>
+                    <a href="Component.html" title="">المان ها</a>
+                  </li>
+                  <li>
+                    <a href="Features.html" title="">ویژگی ها </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-sm-6 py-3 order-lg-2 order-3">
+                <h5 class="IRANSansWeb_Medium">پیوندها :</h5>
+                <ul>
+                  <li>
+                    <a href="Faq.html" title="">سوالات متداول</a>
+                  </li>
+  
+                  <li>
+                    <a href="Login.html" title="">ورود</a>
+                  </li>
+                  <li>
+                    <a href="Register.html" title="">عضویت</a>
+                  </li>
+                  <li>
+                    <a href="AboutUs.html" title="">درباره ما</a>
+                  </li>
+                  <li>
+                    <a href="ContactUs.html" title="">تماس با ما </a>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="col-lg-3 col-sm-6 pr-lg-4 py-3 IRANSansWeb_FaNum order-lg-3 order-2"
+              >
+                <h5 class="IRANSansWeb_Medium">ارتباط با ما :</h5>
+                <p>
+                  <i class="fas fa-2x fa-map-marker-alt ml-2"></i>آدرس : مشهد ،
+                  خیابان دانشگاه
+                </p>
+                <p><i class="fas fa-2x fa-phone ml-2"></i>تلفن : 01733224455</p>
+                <p>
+                  <i class="fas fa-2x fa-mobile-alt ml-2"></i>تلفن همراه :
+                  09301234567
+                </p>
+                <p><i class="fas fa-2x fa-fax ml-2"></i>نمابر : 09301234567</p>
+              </div>
+              <div
+                class="col-lg-3 col-sm-6 pr-lg-4 py-3 IRANSansWeb_FaNum order-lg-3 order-2"
+              >
+                <img src="Images/Svg/aparat.svg" alt="" class="mx-2" />
+                <img
+                  src="Images/Svg/linkedin-svgrepo-com.svg"
+                  alt=""
+                  class="mx-2"
+                />
+                <img
+                  src="Images/Svg/noun-instagram-7139236.svg"
+                  alt=""
+                  class="mx-2"
+                />
+                <div><img src="Images/namad.svg" alt="" class="mt-3" /></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="footer-copyright">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-md-12">
+                <a href="#" class="text-white">
+                  کلیه حقوق این سایت برای کوثر رضوان می باشد .
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <script src="Js/jquery-2.0.0.min.js"></script>
+      <script src="Js/bootstrap.min.js"></script>
+      <script src="./Js/prayes.js"></script>
+      <script src="Js/owl.carousel.js"></script>
+      <script src="Js/custom.js"></script>
+      <script src="Js/sina-nav.min.js"></script>
+      <script>
+        var xyValues = [
+  {x:50, y:800},
+  {x:60, y:8},
+  {x:70, y:8},
+  {x:80, y:9},
+  {x:90, y:9},
+  {x:100, y:9},
+  {x:110, y:10},
+  {x:120, y:11},
+  {x:130, y:14},
+  {x:140, y:14},
+  {x:150, y:15}
+];
+
+new Chart("myChart", {
+  type: "scatter",
+  data: {
+    datasets: [{
+      pointRadius: 4,
+      pointBackgroundColor: "rgb(0,0,255)",
+      data: xyValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    scales: {
+      xAxes: [{ticks: {min: 40, max:160}}],
+      yAxes: [{ticks: {min: 0, max:100}}],
+    }
+  }
+});
+const xValues = [50,60,70,80,90,100,110,120,130,140,150];
+const yValues = [10,15,30,35,50,55,60,65,70,80,90];
+
+new Chart("myChart", {
+  type: "line",
+  data: {
+    labels: xValues,
+    datasets: [{
+      fill: false,
+      lineTension: 0,
+      backgroundColor: "rgba(0,0,255,1.0)",
+      borderColor: "rgba(0,0,255,0.1)",
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    scales: {
+      yAxes: [{ticks: {min: 0, max:100}}],
+    }
+  }
+});
+      </script>
+</body>
+</html>

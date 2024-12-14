@@ -2002,7 +2002,7 @@ ul.breadcrumb li a:hover {
 }
 
 .bg_dblue {
-  background-color: #004D40;
+  background-color: #003c43;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2811,4 +2811,13 @@ footer p {
 .cards:hover{
   transition: all 0.2s ease-in;
   transform:scale(102%);
+}
+#line-example-10 {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#line-example-10 .line {
+  --aspect-ratio: 21 / 9;
+  background-color: #f6f6f6;
 }
