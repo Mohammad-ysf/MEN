@@ -1,0 +1,38 @@
+.item-container a {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(2, 61, 44, 0.2), 0 6px 20px rgba(2, 61, 44, 0.2);
+}
+.item-container p {
+  text-align: center;
+}
+#btn-more-talar {
+  margin: 50% 0;
+}
+.text-tozihat {
+  font-size: 12px;
+}
+/* #owl-topnews-1 .card {
+  background: #fde8e8;
+} */
+#owl-topnew-1 div > img {
+  height: 140px;
+}
+.img-masjed {
+  width: 95%;
+  height: 200px;
+}
+.img-madah {
+  /* border-radius: 50%; */
+  height: 200px;
+  width: 95%;
+  margin-top: 8px;
+  border-radius: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}

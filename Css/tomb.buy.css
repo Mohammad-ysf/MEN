@@ -1,0 +1,23 @@
+.process {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+#next-information,
+#next-upload {
+  background-color: #003c43;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bolder;
+}
