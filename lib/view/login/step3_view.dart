@@ -6,6 +6,7 @@ import '../../common/color_extension.dart';
 import '../../common_widget/round_button.dart';
 import '../../common_widget/select_datetime.dart';
 import '../../common_widget/select_picker.dart';
+import '../menu_view/menu_view.dart';
 
 class Step3View extends StatefulWidget{
   const Step3View({super.key});
@@ -205,7 +206,7 @@ class _Step3ViewState extends State<Step3View> {
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 30, horizontal: 25),
               child: RoundButton(title: "Start", onPressed: (){
-
+              Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (contex) => const MenuView()), (route) => false);
               },),
             ),
 

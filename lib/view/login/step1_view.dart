@@ -18,7 +18,7 @@ class _Step1ViewState extends State<Step1View> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: TColor.white,
-        centerTitle: true, title:  Text("Step 1 of 3", style: TextStyle(
+        centerTitle: true, title:  Text("مرحله 1 از 3", style: TextStyle(
           color: TColor.primary,
           fontSize: 20,
           fontWeight: FontWeight.w700),
